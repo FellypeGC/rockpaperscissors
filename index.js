@@ -19,6 +19,7 @@ function jogarTesoura() {
 
 function reiniciarJogo() {
   img.setAttribute('src', 'rockpaperscissors.jpg');
+  p.innerText = '';
 }
 
 function denunciarJogo() {
