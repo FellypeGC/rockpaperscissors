@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pedra {
+  padding: 6px 20px;
+  margin: 1rem;
+  background-color: #633636;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.papel {
+  padding: 6px 20px;
+  margin: 1rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.tesoura {
+  padding: 6px 20px;
+  margin: 1rem;
+  background-color: #64686b;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 7px;
+}
